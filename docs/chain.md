@@ -52,7 +52,7 @@ An absence can be evidence.
 
 ### The question it leaves behind
 
-If the universe has a history, what is the oldest light we can still see?
+What is the oldest light we can see?
 
 **Leads to:** Week 2
 **Returns in:** Weeks 5 and 12
@@ -87,7 +87,7 @@ The universe has left light behind from its own early history.
 
 ### The question it leaves behind
 
-What does it actually mean to say that the universe had a temperature?
+What is a temperature?
 
 **Leads to:** Week 3
 
@@ -125,7 +125,7 @@ Some properties appear only when there are many parts.
 
 ### The question it leaves behind
 
-How can a crowd have properties that none of its members have?
+How does a crowd have properties its members don't?
 
 **Leads to:** Week 4
 
@@ -165,7 +165,7 @@ Now run the microscopic movie backwards.
 
 The particles still obey perfectly legal physics.
 
-So why does the macroscopic world seem to know which direction is forward in time?
+Why does time run one way?
 
 **Leads to:** Week 5
 **Returns in:** Week 10
@@ -208,7 +208,7 @@ It becomes something that can emerge from probability.
 
 ### The question it leaves behind
 
-If entropy overwhelmingly increases, how can organised structures persist at all?
+How do organised structures persist at all?
 
 **Leads to:** Week 6
 
@@ -251,7 +251,7 @@ It becomes something thermodynamics can allow when there is a sustained flow.
 
 The Sun has been paying Earth's energy bill for billions of years.
 
-Why has it not run out?
+Why hasn't the Sun burned out?
 
 **Leads to:** Week 7
 
@@ -309,7 +309,7 @@ Mathematics arrives because qualitative reasoning has reached its limit.
 
 ### The question it leaves behind
 
-How do two nuclei that cannot classically get close enough manage to fuse?
+How do two nuclei that can't touch, touch?
 
 **Leads to:** Week 8
 
@@ -349,7 +349,7 @@ A particle can have physical presence in places a classical trajectory would for
 
 ### The question it leaves behind
 
-If a particle is not simply a little object moving along a definite path, what is it?
+What is a particle?
 
 **Leads to:** Week 9
 
@@ -393,7 +393,7 @@ The state becomes more fundamental than the classical picture.
 
 ### The question it leaves behind
 
-If the state spreads across possibilities, why does measurement give one definite result?
+What happens when you look?
 
 **Leads to:** Week 10
 
@@ -441,7 +441,7 @@ The environment becomes part of the explanation.
 
 ### The question it leaves behind
 
-If the underlying world is quantum, why does the ordinary world look not only definite, but stable and solid?
+Why does matter behave like matter?
 
 **Leads to:** Week 11
 
@@ -492,7 +492,7 @@ Stable matter turns out to be a quantum achievement.
 
 ### The question it leaves behind
 
-What happens when gravity becomes too strong even for quantum matter to support itself?
+Where does explanation break?
 
 **Leads to:** Week 12
 
