@@ -33,7 +33,7 @@ The Sun is shining anyway.
 
 ## What tunnelling actually is
 
-Quantum mechanics does not describe a proton by a single position tracing a single path toward the barrier. It describes it by a quantum state — spread out, not sitting anywhere in particular until something forces the question. Solve for how that state behaves when it meets a barrier taller than the proton's energy, and it does not stop dead at the edge, the way a rolled ball would. The state's amplitude falls away sharply inside the barrier, but it does not fall to zero. If the barrier is thin enough relative to how fast that amplitude decays, some of the state is still there when the barrier ends.
+Quantum mechanics does not describe a proton by a single position tracing a single path toward the barrier. It describes it by a quantum state rather than by one definite classical position and trajectory. Solve for how that state behaves when it meets a barrier taller than the proton's energy, and it does not stop dead at the edge, the way a rolled ball would. The state's amplitude falls away sharply inside the barrier, but it does not fall to zero. If the barrier is thin enough relative to how fast that amplitude decays, some of the state is still there when the barrier ends.
 
 That is what tunnelling is: a quantum state extending into a region a classical trajectory could never reach, coming out the other side with a small but real amplitude — which means a small but real probability of finding the proton on the far side, having never had enough energy to be there.
 

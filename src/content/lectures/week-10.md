@@ -25,7 +25,7 @@ It does not explain everything. Decoherence tells you why interference between a
 
 So a lot has been explained. A quantum system does not need an observer's gaze to behave differently; it needs to get entangled with enough of the world, and the world always obliges. But the deeper question underneath it — why definite outcomes happen at all, one at a time, rather than every possibility persisting side by side — is still open.
 
-And there is a further question this raises just by looking at ordinary things around you: tables, walls, floors. They are made of atoms held together by quantum rules, in a world that only looks solid and definite because decoherence has already done its work at every scale you can perceive. Why does that add up to something you can lean on without falling through?
+And there is a further question this raises just by looking at ordinary things around you: tables, walls, floors. They are made of atoms held together by quantum rules, in a world that only looks solid and definite because decoherence has already done its work at every scale you can perceive. That still leaves a different problem: why quantum matter forms stable, resistant structures at all.
 
 ## What we explained
 
