@@ -6,13 +6,17 @@ import { sessionLabels, siteConfig } from "../../site-config";
 
 <ContentLayout
   title={sessionLabels.plural}
-  description={`The twelve-week teaching schedule: what happens in each ${sessionLabels.singular.toLowerCase()}, what to prepare, and what leaves the room.`}
+  description="Four sessions, not twelve, placed where the chain needs hands on it rather than another lecture."
   {...siteConfig}
 >
   <p>
-    The internal collection and URL stay <code>sessions</code>. Set the visible
-    singular and plural names once in <code>src/site-config.ts</code> and use
-    the language your course deserves everywhere readers see it.
+    Twelve lectures build the chain. Four sessions are where you stop reading
+    about it and do it: plot the real CMB spectrum against a blackbody curve
+    you compute yourself, count every microstate of a system small enough to
+    list by hand, redo the Sun's lifetime estimate on paper, and work out what
+    degeneracy pressure can and cannot hold up before gravity wins. Each one
+    sits at the point in the chain where an argument alone stops being
+    enough.
   </p>
   <SessionsGrid />
 </ContentLayout>
