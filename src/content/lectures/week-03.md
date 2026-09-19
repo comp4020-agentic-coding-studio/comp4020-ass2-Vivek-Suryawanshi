@@ -19,7 +19,7 @@ Suddenly temperature is one of the most reliable numbers in the room. Put a ther
 
 Nothing new was added to the box except more of the same thing that was already there. No molecule turned into a different kind of object between the first case and the second. So where did this new, well-behaved property come from?
 
-Not from any single molecule. It comes from the distribution — the spread of speeds and energies across the whole population. A gas at a given temperature has molecules moving at wildly different individual speeds, from nearly still to far above average, but the shape of that spread is stable and predictable. Temperature is a label for that shape. It measures something about the collective statistics of an enormous number of degrees of freedom, not something carried by any one of them.
+Not from any single molecule. It comes from the distribution — the spread of speeds and energies across the whole population. A gas at a given temperature has molecules moving at wildly different individual speeds, from nearly still to far above average, but the shape of that spread is stable and predictable. For a gas in thermal equilibrium, temperature is encoded in that distribution. It measures something about the collective statistics of an enormous number of degrees of freedom, not something carried by any one of them.
 
 That is worth sitting with. Position and velocity are properties every molecule has on its own, whether or not anyone is looking. Temperature is not like that. It only becomes meaningful once there are enough particles for a distribution to exist at all, and even then it is a statement about the whole ensemble, never about one member of it picked out and interrogated alone.
 

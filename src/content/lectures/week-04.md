@@ -9,7 +9,7 @@ related:
   - week-03
 ---
 
-Watch one molecule bouncing around a box and try to say where it will be a second from now. You cannot do it with any confidence. It collides, changes direction, speeds up, slows down, and the smallest uncertainty in its starting position gets amplified every time it hits something. One molecule's future is close to unpredictable.
+Watch one molecule bouncing around a box and try to say where it will be a second from now. Classical mechanics says this is possible in principle: know its starting position and velocity exactly, know the outcome of every collision it is about to have, and its path is fixed, no dice involved anywhere. But try to actually do it. It collides, changes direction, speeds up, slows down, and the smallest error in your knowledge of its starting position gets amplified every time it hits something. Pinning down its future would take a precision in your starting knowledge, and a precision in tracking every collision, that no real measurement can supply. One molecule's future is, in practice, unpredictable — not because the physics is undetermined, but because following it is beyond reach.
 
 Now fill the box with a litre of the same gas and ask a different question: what is the pressure on the walls?
 
@@ -17,7 +17,7 @@ That question has an answer, and a good instrument will give it to you with star
 
 This looks backwards. Uncertainty about the parts should make you more uncertain about the whole, not less. Instead the opposite happens. As the numbers climb into the billions and beyond, individual unpredictability turns into collective reliability. Pressure settles down. Temperature settles down. The wild swings of any one molecule get buried under the combined effect of everything else in the box doing its own unpredictable thing at the same time, and what survives on the far side is a small set of numbers that barely move.
 
-That is not an accident of gases. It is closer to a law of large numbers. Flip one coin and you cannot say whether it lands heads. Flip a billion and the fraction of heads will sit extremely close to one half, every time, even though no individual flip became more predictable. Pressure and temperature are doing something similar for a box of gas, except the underlying trials are not coin flips — they are the positions, speeds, and collisions of an enormous number of molecules, each one following ordinary mechanics.
+That is not an accident of gases. The same statistical idea that appears in the law of large numbers is at work. Flip one coin and you cannot say whether it lands heads. Flip a billion and the fraction of heads will sit extremely close to one half, every time, even though no individual flip became more predictable. Pressure and temperature are doing something similar for a box of gas, except the underlying trials are not coin flips — they are the positions, speeds, and collisions of an enormous number of molecules, each one following ordinary mechanics.
 
 So a crowd's properties are not just a scaled-up version of one member's properties, seen from a distance. They are a different kind of object. Pressure is not "what one molecule does, times a very large number." It is a statement about the shape of an entire distribution, and that shape can be far steadier than anything happening inside it.
 

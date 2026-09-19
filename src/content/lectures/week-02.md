@@ -15,7 +15,7 @@ That hiss is light. Two radio astronomers, Arno Penzias and Robert Wilson, spent
 
 Last week the dark sky told us the universe has a history. It has not been shining forever, so most lines of sight can end on nothing. This week's glow is a piece of that history arriving directly. It is old light, released from a time when the universe was hot and dense enough that matter and light could not separate. Photons scattered constantly off free electrons, unable to travel far before being knocked into a new direction. There was no clear line of sight anywhere.
 
-Then the universe cooled. Electrons and nuclei combined into neutral atoms, photons stopped scattering off free charges, and light was finally free to travel in a straight line. The photons released at that moment are still travelling. Some of them just reached your receiver.
+Then the universe cooled. Electrons and nuclei combined into neutral atoms, photons stopped scattering off free charges, and light was finally free to travel in a straight line. Once the universe became transparent, those photons were free to travel. Some of them are reaching our instruments now. Some of them just reached your receiver.
 
 That would already be strange enough. Here is the part that makes it stranger.
 
