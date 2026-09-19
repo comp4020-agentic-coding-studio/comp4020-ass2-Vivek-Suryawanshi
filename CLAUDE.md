@@ -29,3 +29,8 @@ specification for the course, and I wrote it by hand.
 `execFile("npx", ...)` for pagefind, which can't resolve `npx.cmd`). Use
 `pnpm typecheck ; pnpm build ; vitest run spec` locally and read the build
 output down to `[build] ✓ Completed`. CI on Linux is the real signal.
+- `dist/api/index.json` is emitted by the build pipeline, in the
+  `astro:build:done` hook — not by a route under `src/pages`. It doesn't
+  exist on my machine because that hook crashes on `npx` before it runs. It
+  exists in CI. Don't describe this as a missing route or an infrastructure
+  gap, and don't try to create an API route to fix it.
