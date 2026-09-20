@@ -1,53 +1,15 @@
-# Process overview
+# Process
 
-<!-- TEMPLATE: this file is a shape to fill in, not a form. Replace everything
-     in it with your own overview, and delete this comment — `pnpm
-     check:evidence` will remind you if it's still here. -->
+I started with one test for the course design: could the twelve weeks be reordered without damage? If yes, I had twelve topics, not a course. That is the failure mode the brief warns about. I settled on a chain in which each week opens with the question the previous week could not answer. The course is SLOP1849, *The Universe Gets Stranger*: Level 1, with no prior physics assumed. I used the real ANU Semester 2 2026 calendar; the break falls between Weeks 6 and 7, exactly where mathematics enters the course ([`de18915`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-Vivek-Suryawanshi/commit/de18915)).
 
-Written by you, for a reader: how you got from the brief to the harness and
-agentic workflow behind this submission. Markers read this file and follow its
-citations; they don't trawl the repo for evidence you didn't point at.
+Before generating content, I wrote `docs/chain.md` by hand. It fixes the twelve questions, what physics each week may use, and the leftover it must hand forward ([`e6fb00f`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-Vivek-Suryawanshi/commit/e6fb00f)). The first draft had the right structure but a dead voice: measured, impersonal prose the agent would copy across the site. I rewrote it around concrete things before abstractions - dark sky before cosmology, molecules before statistical mechanics - and added a banned-phrase list. `CLAUDE.md` turned those choices into operating rules for the agent ([`0d5edcf`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-Vivek-Suryawanshi/commit/0d5edcf)).
 
-This file is the shape; the course site's
-[assessment page](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#what-you-submit)
-is the requirement, and its
-[word counts](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#word-counts)
-cover every deliverable.
+Assignment 1 feedback said I needed more automated backpressure, so I wrote four course-specific checks before the content existed ([`a43de15`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-Vivek-Suryawanshi/commit/a43de15)). There were 78 tests, nearly all failing on purpose. `spec/course-chain.test.ts` freezes the twelve questions and their order; `spec/week-shape.test.ts` enforces the two closing sections and the decision that formal mathematics does not appear before Week 7. The checks are what I decided had to stay true, rather than things I hoped the agent would remember.
 
-## What I built
+The harness caught a structural failure immediately. I wrote Week 1 myself as the voice and shape sample, then delegated Weeks 2-3. The agent followed `docs/chain.md`, while the test enforced frozen strings in `spec/course-chain.test.ts`. Both sources were internally consistent, but eleven strings had drifted. `week-shape` passed while `course-chain` failed. I fixed the disagreement at its source instead of patching generated pages or weakening the test ([`9cb80ce`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-Vivek-Suryawanshi/commit/9cb80ce)). I would not have caught that by reading the pages.
 
-One paragraph: the thing, and the idea behind it.
+Reading was still necessary because the checks cannot judge physics or prose. I reviewed all twelve weeks and found errors the green suite could not see: Week 4 blurred deterministic mechanics with fundamental unpredictability; Week 5 oversimplified early-universe entropy; Week 6 treated disorder too much like a substance; Week 9 presented an interpretation of the double-slit experiment as settled fact; Week 11 used the faster-than-light shortcut for the Chandrasekhar limit. I corrected those explanations while leaving the structure intact. Manual review also found four collection/static pages rendering as raw browser HTML even though typecheck, build and all 78 tests passed; `.mdx` pages had missed the layout injection received by `.md` pages ([`035b61a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-Vivek-Suryawanshi/commit/035b61a)).
 
-## How I got here
+Some decisions stayed outside the harness deliberately. I used four sessions rather than twelve because twelve copies of the same teaching shape would recreate the repetition the course was designed to avoid. The three assessments mirror the course progression - critique an explanation, let calculation choose between explanations, then map where explanation stops - and total 100%.
 
-The account of the process: how the work actually went, and how you knew the
-result was right. Tell it in whatever order makes it clear. A weekly prototype
-needs a paragraph or two; an assignment needs more.
-
-Cite the record as you go, as links whose text is the commit hash or range and
-whose target is this repo's commit or compare URL, so a reader clicks straight
-to the evidence:
-
-- one commit: [`a1b2c3d`](https://github.com/YOUR-ORG/YOUR-REPO/commit/a1b2c3d)
-- a range:
-  [`a1b2c3d...e4f5a6b`](https://github.com/YOUR-ORG/YOUR-REPO/compare/a1b2c3d...e4f5a6b)
-
-To pair a prompt with the commit it produced, quote the prompt (curated, not a
-full transcript) next to the citation:
-
-> the prompt, verbatim
-
-Screenshots are welcome where one carries the point better than a sentence does.
-Commit the file to this repo and link it with a **relative** path, which is what
-makes it render on GitHub: `![alt text](docs/before.png)`. Images don't count
-towards the word count and don't replace the citation.
-
-## Before you ship
-
-`pnpm check:evidence` verifies that this comment is gone, that your citations
-resolve to real commits, that a crit week's reflection entry is in
-`reflections/`, and that your `CLAUDE.md` is there. It checks that your account
-is traceable, not that it is good: that is the marker's call.
-
-Images aren't checked: unlike a citation whose SHA doesn't resolve, a broken
-image is visible the moment this file is rendered on GitHub.
+Local `pnpm check` cannot complete on Windows because of the Pagefind `npx` step, so I made the repository public on day one and used Linux CI as the authoritative signal.
