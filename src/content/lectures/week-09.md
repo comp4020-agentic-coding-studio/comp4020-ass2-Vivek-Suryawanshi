@@ -1,7 +1,7 @@
 ---
 title: "What is a particle?"
 description: "Fire particles through two slits one at a time, and each one lands as a single point. Do it enough times and the points draw stripes only a wave could make. No single old picture explains both facts."
-date: 2026-10-05
+date: 2026-10-06
 week: 9
 question: "What is a particle?"
 leftover: "What happens when you look?"
