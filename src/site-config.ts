@@ -1,6 +1,5 @@
 import { defineSiteConfig } from "astro-theme-university/types";
 import { slopBranding } from "astro-theme-slop";
-import { courseMeta } from "./course-config";
 
 // The underlying collection and URL remain `sessions`; these labels are the
 // language students see. Change them to Studios, Tutorials, Expeditions, etc.
@@ -29,6 +28,8 @@ export const siteConfig = defineSiteConfig({
   ],
 
   licence: "CC-BY-NC-SA-4.0",
-  socialImage: "/src/assets/images/card.png",
-  socialImageAlt: `A preview card for ${courseMeta.code}: ${courseMeta.title}`,
+  socialImage: "/src/assets/images/card.jpg",
+  socialImageAlt:
+    "A narrow strip of the Hubble Ultra Deep Field: thousands of distant galaxies " +
+    "in a patch of sky that looks black to the eye.",
 });
